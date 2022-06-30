@@ -1,0 +1,52 @@
+{
+    "Formation": {
+        "Image": "../img/logo-IPSSI.jpeg",
+        "Ecole": "IPSSI",
+        "Diplome": "Bachelor développeur fullstack devops",
+        "Domaine": "Developpement Web",
+        "Durée": "Mars 2022 - Janvier 2023",
+        "Resultat": "En attente",
+        "Activités et association": "Lorem ipssum",
+        "Description": "La formation vise à former des développeurs fullstack et devOps aptes à concevoir et réaliser n'importe quel projet web, mobile, logiciel ou applicatif. Cette formation en alternance donne les compétences techniques et opérationnelles recherchées par les startups de la French tech, les agences web ou permet encore d'être autonome en devenant indépendant."
+    },
+    "Formation2": {
+        "Image": "../img/logo-GRETA.jpeg",
+        "Ecole": "GRETA des Hauts-de-seine",
+        "Diplome": "TP Développeur web et web mobile",
+        "Domaine": "Developpement Web",
+        "Durée": "Octobre 2020 - Juillet 2021",
+        "Resultat": "Obtenue",
+        "Activités et association": "Lorem ipssum",
+        "Description": "Formation de réorientation dans le domaine de développement web."
+    },
+    "Expériences": {
+        "Poste": "Développeur Web FullStack",
+        "Type d'emploi": "Stage",
+        "Nom de l'entreprise": "GRETA des Hauts de seine",
+        "Lieu": "41 Rue des 3 Fontanot, 92000 Nanterre",
+        "Durée": "Mars 2021 - Mai 2021",
+        "Secteur": "Developpement Web",
+        "Descriptif": "Developpement site web avec PHP 7, MySQL et javascript"
+    },
+    "Competences": {
+        "1": ["PHP 7", "Bon"],
+        "2": ["MySQL", "Bon"],
+        "3": ["Javascript", "Bon"],
+        "4": ["React", "Debutant"]
+    },
+    "Diplomes": {
+        "Ecole": "IPSSI",
+        "Nom": "Bachelor développeur fullstack devops",
+        "Date de reception": "En attente",
+        "Resultat":"En attente"
+    },
+    "Certifications": {
+        "Ecole": "Hyland University",
+        "Nom": "Nuxeo Frontend Advanced Certification",
+        "Date de reception": "11 avril 2022",
+        "Resultat":"Obtenu"
+    },
+    "Hobbies": {
+        "1": ["Lecture", "Très bon", "Tous les jours"]
+    }
+}

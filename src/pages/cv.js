@@ -1,13 +1,15 @@
+// Components cv
 import Apropos from "../components/cv/apropos";
 import Formations from "../components/cv/formations";
 import Experiences from "../components/cv/experiences";
 import Competences from "../components/cv/competences";
 import Diplomes from "../components/cv/diplomes";
 import Hobbies from "../components/cv/hobbies";
-import LogoReact from "../img/logo192.png";
-import LogoIpssi from "../img/download.jpeg";
-import LogoGreta from "../img/logo-GRETA-92.png";
 import Certifications from "../components/cv/certifications";
+// Image
+import LogoReact from "../img/logo192.png";
+import LogoIpssi from "../img/logo-IPSSI.jpeg";
+import LogoGreta from "../img/logo-GRETA-92.png";
 
 export default function Cv() {
   return (
@@ -15,7 +17,7 @@ export default function Cv() {
       <h1>CV</h1>
       <Apropos
         photo={LogoReact}
-        para="Je suis Bertrac Nathan,Developpeur Web"
+        para="Je suis Bertrac Nathan, Developpeur Web"
       />
       <section>
         <h2>Formations</h2>
@@ -38,7 +40,7 @@ export default function Cv() {
           dateFin="Juillet 2021"
           resultat="Obtenue"
           aeta="Lorem ipssum"
-          description="Formationde réorientation dans le domaine de développement web."
+          description="Formation de réorientation dans le domaine de développement web."
           photo={LogoGreta}
         />
       </section>
