@@ -1,80 +1,38 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+//Css
+import "../css/style.css";
+
+//Loader
+import ThreeDots from "../components/loader/threedots";
+
+//Layout
+import LayoutNav from "../layout/layoutNav";
+
+// 404
 import Lost from "./404";
-import Nav from "../components/nav";
-// This site has 3 pages, all of which are rendered
-// dynamically in the browser (not server rendered).
-//
-// Although the page does not ever refresh, notice how
-// React Router keeps the URL up to date as you navigate
-// through the site. This preserves the browser history,
-// making sure things like the back button and bookmarks
-// work properly.
 
-export default function router() {
-  return (
+//Pages
+const Home = React.lazy(() => import("../pages/home"));
+const Projet = React.lazy(() => import("../pages/projet"));
+const Contact = React.lazy(() => import("../pages/contact"));
+const Cv = React.lazy(() => import("../pages/cv"));
+
+const Routeur = () => (
+  <Suspense fallback={<ThreeDots />}>
     <Router>
-      <div>
-        <Nav />
-        {/*
-          A <Switch> looks through all its children <Route>
-          elements and renders the first one whose path
-          matches the current URL. Use a <Switch> any time
-          you have multiple routes, but you want only one
-          of them to render at a time
-        */}
+      <LayoutNav>
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/projet">
-            <Projet />
-          </Route>
-          <Route path="/cv">
-            <Cv />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="*">
-            <Lost />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/projet" component={Projet} />
+          <Route path="/cv" component={Cv} />
+          <Route path="/contact" component={Contact} />
+          <Route path="*" component={Lost} />
         </Switch>
-      </div>
+      </LayoutNav>
     </Router>
-  );
-}
+  </Suspense>
+);
 
-// You can think of these components as "pages"
-// in your app.
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function Projet() {
-  return (
-    <div>
-      <h2>Projet</h2>
-    </div>
-  );
-}
-
-function Cv() {
-  return (
-    <div>
-      <h2>CV</h2>
-    </div>
-  );
-}
-function Contact() {
-  return (
-    <div>
-      <h2>Contact</h2>
-    </div>
-  );
-}
+export default Routeur;
