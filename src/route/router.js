@@ -1,12 +1,7 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useLocation,
-} from "react-router-dom";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Lost from "./404";
+import Nav from "../components/nav";
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
 //
@@ -20,23 +15,7 @@ export default function router() {
   return (
     <Router>
       <div>
-        <ul>
-          <li>
-            <Link to="/">home</Link>
-          </li>
-          <li>
-            <Link to="/projet">projet</Link>
-          </li>
-          <li>
-            <Link to="/cv">cv</Link>
-          </li>
-          <li>
-            <Link to="/contact">contact</Link>
-          </li>
-        </ul>
-
-        <hr />
-
+        <Nav />
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
@@ -96,18 +75,6 @@ function Contact() {
   return (
     <div>
       <h2>Contact</h2>
-    </div>
-  );
-}
-
-function Lost() {
-  let location = useLocation();
-
-  return (
-    <div>
-      <h3>
-        No match for <code>{location.pathname}</code>
-      </h3>
     </div>
   );
 }
