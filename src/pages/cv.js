@@ -7,6 +7,7 @@ import Hobbies from "../components/cv/hobbies";
 import LogoReact from "../img/logo192.png";
 import LogoIpssi from "../img/download.jpeg";
 import LogoGreta from "../img/logo-GRETA-92.png";
+import Certifications from "../components/cv/certifications";
 
 export default function Cv() {
   return (
@@ -62,12 +63,21 @@ export default function Cv() {
         <Competences nom="React" niveau="Debutant" />
       </section>
       <section>
-        <h2>Diplômes et certifications</h2>
+        <h2>Diplômes</h2>
         <Diplomes
           ecole="IPSSI"
           diplome="Bachelor développeur fullstack devops"
           dater="En attente"
           resultat="En attente"
+        />
+      </section>
+      <section>
+        <h2>Certifications</h2>
+        <Certifications
+          ecole="Hyland University"
+          diplome="Nuxeo Frontend Advanced Certification"
+          dater="11 avril 2022"
+          resultat="Obtenu"
         />
       </section>
       <section>

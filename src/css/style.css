@@ -1,10 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    background-color: black;
-    color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: black;
+  color: whitesmoke;
 }
 
 /* header{
@@ -16,13 +16,13 @@ footer{
 } */
 
 /*Nav Barre */
-nav ul{
-    list-style-type: none;
-    background-color: #333;
+nav ul {
+  list-style-type: none;
+  background-color: #333;
 }
 
 nav li {
-    float: left;
+  float: left;
 }
 
 nav li a {
@@ -34,73 +34,72 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(145, 5, 5);
+  background-color: rgb(145, 5, 5);
 }
 
-  /*Home */
-  .card {
-      border: 2px solid black;
-      margin: auto;
-      text-align: center;
-      padding: 1% 2%;
-      width: 60%;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
-      border-radius: 10px;
-      margin-bottom: 5%;
-  }
-  
-  .card p {
-      padding-top: 5%;
-  }
+/*Home */
+.card {
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  padding: 1% 2%;
+  width: 60%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.card p {
+  padding-top: 5%;
+}
 
 /* CV */
-h1{
-
-    margin-bottom: 1em;
+h1 {
+  margin-bottom: 1em;
 }
 
-h2{
-    margin-bottom: 1ex;
+h2 {
+  margin-bottom: 1ex;
 }
 
 section {
-    border-top: 2px solid whitesmoke;
-    padding-top: 0.5em;
-    margin-bottom: 1em;
+  border-top: 2px solid whitesmoke;
+  padding-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 .presentation {
-    margin: auto;
-    border: none;
-    text-align: center;
-    padding: 1% 2%;
-    width: 60%;
-    margin-bottom: 5%;
+  margin: auto;
+  border: none;
+  text-align: center;
+  padding: 1% 2%;
+  width: 60%;
+  margin-bottom: 5%;
 }
 
 .presentation p {
-    font-size: 2em;
+  font-size: 2em;
 }
 
-.comp{
-    display: flex;
-    align-items: center;
+.comp {
+  display: flex;
+  align-items: center;
 }
 .comp p {
-    padding-left: 1vw;
-    font-weight: bold;
-    font-size: large;
+  padding-left: 1vw;
+  font-weight: bold;
+  font-size: large;
 }
 
 .form img {
-    width: 10%;
-    margin: auto;
-    display: block;
-  }
+  width: 10%;
+  margin: auto;
+  display: block;
+}
 
 .space {
-    margin-bottom: 0,5vh;
+  margin-bottom: 2vh;
 }
