@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d062c20.css",
+    "main.css": "/static/css/main.5b163b52.css",
     "main.js": "/static/js/main.8f30829b.js",
     "static/js/247.72f79ae6.chunk.js": "/static/js/247.72f79ae6.chunk.js",
     "static/js/349.a9af8495.chunk.js": "/static/js/349.a9af8495.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/787.93f80174.chunk.js": "/static/js/787.93f80174.chunk.js",
     "static/media/logo-GRETA-92.png": "/static/media/logo-GRETA-92.c0910c558ee419db4ebc.png",
     "index.html": "/index.html",
-    "main.5d062c20.css.map": "/static/css/main.5d062c20.css.map",
+    "main.5b163b52.css.map": "/static/css/main.5b163b52.css.map",
     "main.8f30829b.js.map": "/static/js/main.8f30829b.js.map",
     "247.72f79ae6.chunk.js.map": "/static/js/247.72f79ae6.chunk.js.map",
     "349.a9af8495.chunk.js.map": "/static/js/349.a9af8495.chunk.js.map",
@@ -18,7 +18,7 @@
     "787.93f80174.chunk.js.map": "/static/js/787.93f80174.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d062c20.css",
+    "static/css/main.5b163b52.css",
     "static/js/main.8f30829b.js"
   ]
 }

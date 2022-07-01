@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: black;
-  color: whitesmoke;
 }
 
-body{
+body {
   height: 300vh;
+  background-color: black;
+  color: whitesmoke;
 }
 /* header{
     background-color: lightseagreen;
@@ -34,6 +34,7 @@ nav li a {
   padding: 1.5vh 5vw;
   text-decoration: none;
   background-color: #333;
+  color: whitesmoke
 }
 
 nav li a:hover {
