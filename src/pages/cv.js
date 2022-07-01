@@ -11,6 +11,9 @@ import LogoReact from "../img/logo192.png";
 import LogoIpssi from "../img/logo-IPSSI.jpeg";
 import LogoGreta from "../img/logo-GRETA-92.png";
 
+//JSON
+import data from "../json/cv.json";
+
 export default function Cv() {
   return (
     <>
@@ -22,7 +25,7 @@ export default function Cv() {
       <section>
         <h2>Formations</h2>
         <Formations
-          ecole="IPSSI"
+          ecole={data.Formation.Ecole}
           diplome="Bachelor développeur fullstack devops"
           domaine="Developpement Web"
           dateDebut="Mars 2022"

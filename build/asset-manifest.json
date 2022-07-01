@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.102370cd.css",
-    "main.js": "/static/js/main.7b1b4bdf.js",
+    "main.js": "/static/js/main.326de40d.js",
     "static/js/562.da33b226.chunk.js": "/static/js/562.da33b226.chunk.js",
     "static/js/349.a9af8495.chunk.js": "/static/js/349.a9af8495.chunk.js",
     "static/js/368.b87ab126.chunk.js": "/static/js/368.b87ab126.chunk.js",
-    "static/js/639.786dd678.chunk.js": "/static/js/639.786dd678.chunk.js",
+    "static/js/953.5edbea48.chunk.js": "/static/js/953.5edbea48.chunk.js",
     "static/js/787.93f80174.chunk.js": "/static/js/787.93f80174.chunk.js",
     "static/media/logo-GRETA-92.png": "/static/media/logo-GRETA-92.c0910c558ee419db4ebc.png",
     "index.html": "/index.html",
     "main.102370cd.css.map": "/static/css/main.102370cd.css.map",
-    "main.7b1b4bdf.js.map": "/static/js/main.7b1b4bdf.js.map",
+    "main.326de40d.js.map": "/static/js/main.326de40d.js.map",
     "562.da33b226.chunk.js.map": "/static/js/562.da33b226.chunk.js.map",
     "349.a9af8495.chunk.js.map": "/static/js/349.a9af8495.chunk.js.map",
     "368.b87ab126.chunk.js.map": "/static/js/368.b87ab126.chunk.js.map",
-    "639.786dd678.chunk.js.map": "/static/js/639.786dd678.chunk.js.map",
+    "953.5edbea48.chunk.js.map": "/static/js/953.5edbea48.chunk.js.map",
     "787.93f80174.chunk.js.map": "/static/js/787.93f80174.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.102370cd.css",
-    "static/js/main.7b1b4bdf.js"
+    "static/js/main.326de40d.js"
   ]
 }

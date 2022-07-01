@@ -103,3 +103,18 @@ section {
 .space {
   margin-bottom: 2vh;
 }
+
+/*banner */
+.banner {
+  background-color: red;
+}
+
+.banner-scroll {
+  background-color: blue;
+  height: 3vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
